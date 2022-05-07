@@ -1,0 +1,136 @@
+*, 
+*::before, 
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #442aebe7;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.25rem;
+    color: #ffffff;
+    min-height: 100vh;
+
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+div.img {
+    margin: 0 auto;
+    width: 320px;
+    margin-bottom: 1.25rem;
+}
+div.img > img {
+    width: 100%;
+}
+
+main > .quiz{
+    width: 320px;
+    display: flex;
+    gap: .9375rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.after-quiz {
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.continue-dialog {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p.after-quiz-msg {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+.message {
+    font-size: 1.25rem;
+    text-align: center;
+    /* color: hsla(0, 8%, 97%, 0.627); */
+    color: #fff;
+}
+
+.question-order {
+    font-size: 20px;
+    color: #ffffffa2;
+    text-align: left;
+}
+
+.question-number {
+    color: #fff;
+}
+
+.numbers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.numbers > span {
+    display: inline-block;
+    padding: 1.25rem;
+    font-size: 1.5625rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #fff;
+    /* background-color: black; */
+}
+.first-number {
+    background-color: green;
+}
+
+.second-number {
+    background-color: chocolate;
+}
+.input-form {
+    margin: 20px;
+
+    display: flex;
+    gap: .9375rem;
+    flex-direction: column;
+}
+
+.input-form > .input {
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #fff;
+    color: #fff;
+    caret-color: #ffffff;
+    font-size: 1.5625rem;
+    font-variant: small-caps;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 60px;
+}
+
+.btn {
+    background-color: transparent;
+    box-shadow: 0 9px hsla(0, 0%, 100%, 0.761);
+    border-radius: 5px;
+    color: #fff;
+    font-size: .9375rem;
+    outline: none;
+    border: 1px solid #fff;
+    padding: .9375rem;
+}
+
+.btn:hover {
+    background-color: hsla(0, 0%, 100%, 0.157);
+}
+
+.btn:active{
+    box-shadow: 0 5px;
+    transform: translateY(5px);
+}

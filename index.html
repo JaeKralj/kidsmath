@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Maths for kids</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="img">
+        <img src="img/kids math.png" alt="Playful kids having fun with Maths">
+    </div>
+    
+    <main>
+        <div class="quiz" id="quiz">
+            <div class="message-wrap">
+                <p class="message">You Can Solve The Simple Questions 💪🏾</p>
+            </div>
+            <p class="question-order">question <span id="question-number">5</span> of 10</p>
+            <p class="numbers">
+                <span class="first-number" id="first-number"></span> 
+                <span class="operator" id="operator" >  </span> 
+                <span class="second-number" id="second-number"></span> 
+                <span class="equal"> = </span> 
+            </p>
+            <form class="input-form" id="input-form" autocomplete="off">
+                <input type="text" id="input" autofocus="on" required autocomplete="off" class="input">
+                <button type="submit" class="btn check-btn" id="answer-check-btn">Check Answer</button>
+            </form>            
+        </div>
+         <div class="after-quiz" id="after-quiz">
+            <p 
+            class="after-quiz-msg" id="after-quiz-msg"></p>
+            <div class="continue-dialog" id="continue-dialog">
+                <p style="text-transform: capitalize; font-size: 20px;">Shall we play again ? </p>
+                <div>
+                    <button class="btn yes-btn" id="yes-btn" style="margin: 5px;">YES, let's play</button>
+                    <button class="btn no-btn" id="no-btn" style="margin: 5px;">No, maybe later</button>
+                </div>
+            </div>
+         </div>
+    </main>
+   
+    <script src="script.js"></script>
+</body>
+</html> 
