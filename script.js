@@ -91,6 +91,7 @@ document.getElementById("input-form").addEventListener('submit', (e) => {
 
 yesBtn.addEventListener('click', () => {
     questionNumber = 0;
+    correctAnswers = 0;
     addNewQuestion();
     quiz.style.display = "block";
     input.focus();
